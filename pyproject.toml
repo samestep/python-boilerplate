@@ -9,14 +9,14 @@ python = "^3.7"
 
 [tool.poetry.dev-dependencies]
 black = "^22"
-flake8 = "^4"
+flake8 = "^5"
 isort = "^5"
-mypy = "^0.931"
-pytest = "^6"
+mypy = "^0.991"
+pytest = "^7"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 
 # https://black.readthedocs.io/en/stable/guides/using_black_with_other_tools.html#isort
 [tool.isort]
