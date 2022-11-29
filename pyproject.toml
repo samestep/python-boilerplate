@@ -5,11 +5,11 @@ name = "boilerplate"
 version = "0.1.0"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.8.1"
 
 [tool.poetry.dev-dependencies]
 black = "^22"
-flake8 = "^5"
+flake8 = "^6"
 isort = "^5"
 mypy = "^0.991"
 pytest = "^7"
